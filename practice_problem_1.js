@@ -21,3 +21,4 @@ let Numbersc = parseInt(prompt("Please Enter Your 3rd Positive Integer Number in
 let Numbersd = parseInt(prompt("Please Enter Your 4th Positive Integer Number in Here >>>  "))
 
 const result = multiplyTask(NumbersA, Numbersb, Numbersc, Numbersd);
+console.log('The Result is your given thous 4 integer numbers are >>>' , result );
