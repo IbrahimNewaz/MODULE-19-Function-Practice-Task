@@ -15,7 +15,8 @@ function make_avg(A, n) {
         suMofArray = suMofArray + A[i];
         i++;
     }
-    const avgOfvalue = suMofArray / 2;
+    // const avgOfvalue = suMofArray / 2;
+    const avgOfvalue = suMofArray / n; // this bug has been  fixed //
     console.log('The sum of the array elements is..." >> ' , suMofArray);
     return avgOfvalue;
 }
