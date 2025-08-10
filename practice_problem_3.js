@@ -7,7 +7,13 @@ and return the average of those values.
 // 🟩🟦 User Defined Function 🟦🟩
 function make_avg(A, n) {
 
-    console.log('The Size of This Array is >>> ', n);
+    if (n === 0) {
+        console.log("Array is empty. Cannot calculate average.");
+        return null;
+    }
+    else {
+        console.log('The Size of This Array is >>> ', n);
+    }
 
     let suMofArray = 0;
     let i = 0;
@@ -17,7 +23,7 @@ function make_avg(A, n) {
     }
     // const avgOfvalue = suMofArray / 2;
     const avgOfvalue = suMofArray / n; // this bug has been  fixed //
-    console.log('The sum of the array elements is..." >> ' , suMofArray);
+    console.log('The sum of the array elements is..." >> ', suMofArray);
     return avgOfvalue;
 }
 
